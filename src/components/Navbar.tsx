@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="py-6 container-custom">
       <div className="flex justify-between items-center">
-        <a href="#" className="fs-logo">FS</a>
+        <a href="#" className="fs-logo text-4xl font-bold text-theme-highlight">FS</a>
         
         <div className="hidden md:flex space-x-10">
           <a href="#" className="nav-link font-medium">HOME</a>
@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="#contact" className="nav-link font-medium">CONTACT</a>
         </div>
         
-        <Button className="btn-primary">HIRE ME</Button>
+        <Button className="btn-primary text-sm">HIRE ME</Button>
       </div>
     </nav>
   );
