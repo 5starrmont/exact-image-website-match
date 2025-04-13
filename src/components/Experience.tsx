@@ -3,14 +3,38 @@ import React from 'react';
 
 const Experience = () => {
   const technologies = [
-    { name: "AWS", icon: "https://placehold.co/80/orange/white?text=AWS" },
-    { name: "CSS3", icon: "https://placehold.co/80/1e90ff/white?text=CSS3" },
-    { name: "React.js", icon: "https://placehold.co/80/61dafb/white?text=React" },
-    { name: "HTML", icon: "https://placehold.co/80/e34c26/white?text=HTML" },
-    { name: "Java", icon: "https://placehold.co/80/f89820/white?text=Java" },
-    { name: "JavaScript", icon: "https://placehold.co/80/f7df1e/black?text=JS" },
-    { name: "Node.js", icon: "https://placehold.co/80/3c873a/white?text=Node" },
-    { name: "Python", icon: "https://placehold.co/80/3776ab/white?text=Python" }
+    { 
+      name: "AWS", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
+    },
+    { 
+      name: "CSS3", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+    },
+    { 
+      name: "React.js", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+    },
+    { 
+      name: "HTML", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
+    },
+    { 
+      name: "Java", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" 
+    },
+    { 
+      name: "JavaScript", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+    },
+    { 
+      name: "Node.js", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" 
+    },
+    { 
+      name: "Python", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+    }
   ];
   
   return (
