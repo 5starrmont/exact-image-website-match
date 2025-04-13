@@ -10,7 +10,7 @@ const PortfolioNav = ({ activeTab, setActiveTab }: { activeTab: string, setActiv
   ];
   
   return (
-    <div className="flex justify-center gap-6 mb-16 mt-4">
+    <div className="flex flex-wrap justify-center gap-6 mb-16 mt-4">
       {tabs.map(tab => (
         <button
           key={tab.id}

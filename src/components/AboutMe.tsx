@@ -10,7 +10,7 @@ const AboutMe = () => {
           <img 
             src="/lovable-uploads/24fd250f-67d8-4d67-a140-c37bf8e0686b.png" 
             alt="Profile" 
-            className="w-64 h-64 object-cover rounded-lg"
+            className="w-64 h-64 object-cover rounded-lg border-2 border-theme-light-blue/20"
           />
         </div>
         

@@ -4,10 +4,10 @@ import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="py-6 bg-theme-dark-blue/80">
+    <footer className="py-6 bg-theme-dark-blue/80 border-t border-theme-light-blue/10">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <a href="#" className="fs-logo mb-4 md:mb-0">FS</a>
+          <a href="#" className="fs-logo text-3xl font-bold text-theme-highlight blue-glow mb-4 md:mb-0">FS</a>
           
           <p className="text-white/60 text-sm mb-4 md:mb-0">
             © 2023 Portfolio. All rights reserved.

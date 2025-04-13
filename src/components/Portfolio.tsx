@@ -42,6 +42,33 @@ const Portfolio = () => {
       imageSrc: "https://placehold.co/600x400/d580ff/white?text=Modeling+App",
       imageAlt: "Modeling Mobile App Screenshot",
       category: "mobile"
+    },
+    {
+      id: 5,
+      number: 1,
+      title: "Corporate Website Design",
+      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      imageSrc: "https://placehold.co/600x400/3498db/white?text=Corporate+Website",
+      imageAlt: "Corporate Website Screenshot",
+      category: "website"
+    },
+    {
+      id: 6,
+      number: 1,
+      title: "Inventory Management System",
+      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      imageSrc: "https://placehold.co/600x400/2ecc71/white?text=Inventory+System",
+      imageAlt: "Inventory System Screenshot",
+      category: "desktop"
+    },
+    {
+      id: 7,
+      number: 1,
+      title: "AI Research Project",
+      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      imageSrc: "https://placehold.co/600x400/9b59b6/white?text=AI+Research",
+      imageAlt: "AI Project Screenshot",
+      category: "other"
     }
   ];
   

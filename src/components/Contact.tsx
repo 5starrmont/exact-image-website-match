@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-theme-light-blue/20 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
-                  <Phone className="w-5 h-5 text-theme-highlight" />
+                  <Phone className="w-5 h-5 text-theme-highlight blue-glow" />
                 </div>
                 <div>
                   <p className="text-white/80">+00 123-456-7890</p>
@@ -32,7 +32,7 @@ const Contact = () => {
               
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-theme-light-blue/20 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
-                  <Mail className="w-5 h-5 text-theme-highlight" />
+                  <Mail className="w-5 h-5 text-theme-highlight blue-glow" />
                 </div>
                 <div>
                   <p className="text-white/80">hello@gmail.com</p>
@@ -42,7 +42,7 @@ const Contact = () => {
               
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-theme-light-blue/20 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
-                  <MapPin className="w-5 h-5 text-theme-highlight" />
+                  <MapPin className="w-5 h-5 text-theme-highlight blue-glow" />
                 </div>
                 <div>
                   <p className="text-white/80">1234 Main St, City Name</p>
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="bg-theme-dark-blue rounded-lg p-8">
+          <div className="bg-theme-dark-blue rounded-lg p-8 border border-theme-light-blue/20">
             <form className="space-y-4">
               <div className="space-y-2">
                 <label htmlFor="name" className="text-white/80">Name</label>

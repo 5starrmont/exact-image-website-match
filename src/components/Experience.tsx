@@ -19,8 +19,10 @@ const Experience = () => {
       
       <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-12">
         {technologies.map((tech, index) => (
-          <div key={index} className="flex flex-col items-center">
-            <img src={tech.icon} alt={tech.name} className="w-16 h-16 object-contain mb-3" />
+          <div key={index} className="flex flex-col items-center group">
+            <div className="w-16 h-16 flex items-center justify-center mb-3 rounded-full bg-theme-light-blue/10 p-2 transition-all duration-300 group-hover:bg-theme-light-blue/20">
+              <img src={tech.icon} alt={tech.name} className="w-10 h-10 object-contain" />
+            </div>
             <p className="text-white/80 text-sm">{tech.name}</p>
           </div>
         ))}

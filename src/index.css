@@ -44,7 +44,7 @@
 
 @layer utilities {
   .project-card {
-    @apply relative rounded-lg overflow-hidden bg-theme-card-bg p-6 mb-10;
+    @apply relative rounded-lg overflow-hidden bg-theme-card-bg p-6 mb-10 border border-theme-light-blue/20;
   }
   
   .blue-glow {
